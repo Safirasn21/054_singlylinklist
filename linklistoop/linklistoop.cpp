@@ -70,4 +70,13 @@ void List::addNode()/*Menambah Sebuah Node kedalam list*/
 	nodeBaru->next = current;
 	previous->next = nodeBaru;
 }
+
+bool List::listEmpty()
+{
+	if (START == NULL)
+		return true;
+	else
+		return false;
+}
+
 	
